@@ -495,7 +495,7 @@ body {
     color: #ffffff;
 
 }
-.style-footer-button {
+.style-footer-but {
     min-width: 165px;
     height: 40px;
     display: flex;
@@ -513,7 +513,7 @@ body {
     border-radius: 4px;
 
 }
-.icon-button-style {
+.icon-but-style {
     margin-left: 16px;
     
 }
