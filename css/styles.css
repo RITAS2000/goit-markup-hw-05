@@ -535,7 +535,7 @@ body {
     opacity: 0;
     pointer-events: none;
 }
-.modal-overlay .is-open {
+.modal-overlay.is-open {
     opacity: 1;
     pointer-events: auto;
 }
@@ -571,10 +571,7 @@ body {
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
-.moda-but:hover {
-    background-color: #404bbf;
-    border: none;
-}
+.moda-but:hover,
 .moda-but:focus {
     background-color: #404bbf;
     border: none;
